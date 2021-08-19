@@ -1,0 +1,1171 @@
+{
+    "CZPLADMIN-SW4": {
+        "node_name": "CZPLADMIN-SW4",
+        "ip": "10.42.255.157",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLADMIN-SW3",
+                "ip": "10.42.134.252",
+                "port": "g1/1/3"
+            },
+            {
+                "name": "CZPLADMIN-SW3",
+                "ip": "10.42.134.252",
+                "port": "g1/1/4"
+            },
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.251.237",
+                "port": "g1/1/2"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.251.229",
+                "port": "g1/1/1"
+            }
+        ]
+    },
+
+
+    "CZPLADMIN-SW3": {
+        "node_name": "CZPLADMIN-SW3",
+        "ip": "10.42.255.157",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.251.233",
+                "port": "g1/1/2"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.251.225",
+                "port": "g1/1/1"
+            },
+            {
+                "name": "CZPLADMIN-SW4",
+                "ip": "10.42.134.253",
+                "port": "g1/1/4"
+            },
+            {
+                "name": "CZPLADMIN-SW4",
+                "ip": "10.42.134.253",
+                "port": "g1/1/3"
+            }
+        ]
+    },
+
+
+    "CZPLADMIN-SW2": {
+        "node_name": "CZPLADMIN-SW2",
+        "ip": "10.42.255.156",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZCELL4-SW3",
+                "ip": "10.42.252.126",
+                "port": "g1/0/8"
+            },
+            {
+                "name": "CZMCC270-SW1",
+                "ip": "10.42.251.197",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZPLADMIN-SW3",
+                "ip": "10.42.251.234",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.251.205",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.251.193",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZPLADMIN-SW4",
+                "ip": "10.42.251.238",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZEH1-SW2",
+                "ip": "10.42.252.85",
+                "port": "g1/0/7",
+                "NOTE": "can not log in"
+            },
+            {
+                "name": "CZEH1-SW1",
+                "ip": "10.42.252.81",
+                "port": "g1/0/7",
+                "NOTE": "can not log in"
+            }
+        ]
+    },
+
+
+    "CZPLADMIN-SW1": {
+        "node_name": "CZPLADMIN-SW1",
+        "ip": "10.42.255.155",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZCELL4-SW1",
+                "ip": "10.42.252.122",
+                "port": "g1/0/8"
+            },
+            
+            {
+                "name": "CZMCC270-SW1",
+                "ip": "10.42.251.189",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.251.206",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZPLADMIN-SW3",
+                "ip": "10.42.251.226",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.251.201",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZPLADMIN-SW4",
+                "ip": "10.42.251.230",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZPLPOTABLE-SW1",
+                "ip": "10.42.253.205",
+                "port": "g1/0/10"
+            }
+        ]
+    }, 
+    "CZCELL4-SW1": {
+        "node_name": "CZCELL4-SW1",
+        "ip": "10.42.255.21",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZCELL4-SW3",
+                "ip": "10.42.200.60",
+                "port": "F1/8"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.252.121",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZCELL4-SW3": {
+        "node_name": "CZCELL4-SW3",
+        "ip": "10.42.255.23",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZCELL4-SW1",
+                "ip": "10.42.200.59",
+                "port": "f1/8"
+            },
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.252.125",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC270-SW1": {
+        "node_name": "CZMCC270-SW1",
+        "ip": "10.42.255.150",
+        "marked": false,
+        "status": "the host name is fucked up.",
+        "neighbors": [
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.251.198",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.251.190",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.149",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.251.182",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.161",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.252.234",
+                "port": "g",
+                "NOTE": "disconnected?"
+            }
+        ]
+    }, 
+    "CZMCC27.0-SW2": {
+        "node_name": "CZMCC27.0-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.252.242",
+                "port": "g1/0/7"
+            },
+            {
+                "name": "CZMCC270-SW1",
+                "ip": "10.42.251.181",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZPLADMIN-SW2",
+                "ip": "10.42.251.194",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.251.202",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.153",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.157",
+                "port": "g1/0/5"
+            }
+        ]
+    }, 
+    "CZPLPOTABLE-SW1": {
+        "node_name": "CZPLPOTABLE-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLADMIN-SW1",
+                "ip": "10.42.253.206",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZPLSOUTHSUB-SW1": {
+        "node_name": "CZPLSOUTHSUB-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLLIME3-SW1",
+                "ip": "10.42.254.29",
+                "port": "g1/0/9"
+            },
+            {
+                "name": "CZPLSOUTHSUB-SW2",
+                "ip": "10.42.252.178",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC273-SW1",
+                "ip": "10.42.252.170",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZMCC300-SW2",
+                "ip": "10.42.251.250",
+                "port": "g1/0/3"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.252.241",
+                "port": "g1/0/2"
+            }
+        ]
+    }, 
+    "CZPLLIME3-SW1": {
+        "node_name": "CZPLLIME3-SW1",
+        "ip": "",
+        "marked": false,
+        "status": "login message MIA",
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.254.30",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZPLSOUTHSUB-SW2",
+                "ip": "10.42.254.34",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZPLSOUTHSUB-SW2": {
+        "node_name": "CZPLSOUTHSUB-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLLIME3-SW1",
+                "ip": "10.42.254.33",
+                "port": "g1/0/9"
+            },
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.252.177",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZPLLIME-SW1",
+                "ip": "10.42.253.254",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC273-SW1",
+                "ip": "10.42.252.174",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZMCC300-SW1",
+                "ip": "10.42.251.254",
+                "port": "g1/0/3"
+            }
+        ]
+    }, 
+    "CZPLLIME-SW1": {
+        "node_name": "CZPLLIME-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW2",
+                "ip": "10.42.253.253",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC273-SW1": {
+        "node_name": "CZMCC273-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.252.169",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZPLSOUTHSUB-SW2",
+                "ip": "10.42.252.173",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC300-SW1": {
+        "node_name": "CZMCC300-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW2",
+                "ip": "10.42.251.253",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC300-SW2",
+                "ip": "10.42.55.251",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC300-SW2": {
+        "node_name": "CZMCC300-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLSOUTHSUB-SW1",
+                "ip": "10.42.251.249",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC300-SW1",
+                "ip": "10.42.55.252",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC16.0-SW2": {
+        "node_name": "CZMCC16.0-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPRO-CONEX",
+                "ip": "10.42.253.193",
+                "NOTE": "can not log in",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZMCC270-SW1",
+                "ip": "10.42.251.162",
+                "port": "g1/0/1" 
+            },
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.145",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.251.158.",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC16.1-SW3",
+                "ip": "10.42.251.178",
+                "port": "g1/0/11"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.41",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.17",
+                "port": "g1/0/3"
+            }
+        ]
+    }, 
+    "CZMCC16.0-SW1": {
+        "node_name": "CZMCC16.0-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPRO-CONEX",
+                "ip": "10.42.253.189",
+                "NOTE":"can not log in",
+                "port": "g1/0/6"
+            },
+            {
+                "name": "CZMCC270-SW1",
+                "ip": "10.42.251.150",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZMCC161-SW1",
+                "ip": "10.42.251.166",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC27.0-SW2",
+                "ip": "10.42.251.154",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.146",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.45",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.13",
+                "port": "g1/0/3"
+            }
+        ]
+    }, 
+    "CZMCC161-SW1": {
+        "node_name": "CZMCC161-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.165",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC16.1-SW3": {
+        "node_name": "CZMCC16.1-SW3",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.177",
+                "port": "F1/8"
+            },
+            {
+                "name": "CZMCC19.1-SW3",
+                "ip": "10.42.152.253",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC28.1-SW3",
+                "ip": "10.42.152.251",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC19.0-SW2": {
+        "node_name": "CZMCC19.0-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMTMILL2TECH-SW1",
+                "ip": "10.42.253.246",
+                "port": "g1/0/11"
+            },
+            {
+                "name": "CZTHERMALFLUIDHTR2-SW1",
+                "ip": "10.42.251.26",
+                "port": "g2/0/5"
+            },
+            {
+                "name": "CZMILLCTRLRM",
+                "ip": "10.42.254.42",
+                "port": "g2/0/11"
+            },
+            {
+                "name": "19-SW-01-SRV",
+                "ip": "10.42.251.30",
+                "port": "g2/0/1"
+            },
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.46",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.42",
+                "port": "g2/0/2"
+            },
+            {
+                "name": "CZMCC18.0-SW2",
+                "ip": "10.42.251.50",
+                "port": "g2/0/4"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.54",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.5",
+                "port": "g2/0/12"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.1",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZZMCC192-SW3",
+                "ip": "10.42.251.10",
+                "port": "g1/0/10"
+            }
+        ]
+    }, 
+    "CZMCC19.0-SW1": {
+        "node_name": "CZMCC19.0-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMTMILL2TECH-SW1",
+                "ip": "10.42.253.242",
+                "port": "g1/0/11"
+            },
+            {
+                "name": "CZTHERMALFLUIDHTR1-SW1",
+                "ip": "10.42.251.22",
+                "port": "g2/0/5"
+            },
+            {
+                "name": "CZMILLCTRLRM",
+                "ip": "10.42.254.38",
+                "port": "g2/0/11"
+            },
+            {
+                "name": "CZMCC19.1-SW1",
+                "ip": "10.42.251.10",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC16.0-SW1",
+                "ip": "10.42.251.14",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC16.0-SW2",
+                "ip": "10.42.251.18",
+                "port": "g2/0/2"
+            },
+            {
+                "name": "CZMCC18.0-SW2",
+                "ip": "10.42.251.38",
+                "port": "g2/0/4"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.34",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.6",
+                "port": "g2/0/12"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.2",
+                "port": "g1/0/12"
+            }
+        ]
+    }, 
+    "CZTHERMALFLUIDHTR1-SW1": {
+        "node_name": "CZTHERMALFLUIDHTR1-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZTHERMALFLUIDHTR2-SW1",
+                "ip": "10.42.128.157",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.21",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZTHERMALFLUIDHTR2-SW1": {
+        "node_name": "CZTHERMALFLUIDHTR2-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZTHERMALFLUIDHTR1-SW1",
+                "ip": "10.42.128.156",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.25",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "19-SW-01-SRV": {
+        "node_name": "19-SW-01-SRV",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZPLDELTAV-SW1",
+                "ip": "10.42.158.254",
+                "port": "g1/1/2"
+            },
+            {
+                "name": "16-SW-01-SRV",
+                "ip": "10.42.158.253",
+                "port": "g1/1/1",
+                "NOTE": "can not log in"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.29",
+                "port": "g1/1/3"
+            }
+        ]
+    }, 
+    "CZPLDELTAV-SW1": {
+        "node_name": "CZPLDELTAV-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "19-SW-01-SRV",
+                "ip": "10.42.158.252",
+                "port": "g1/1/2"
+            },
+            {
+                "name": "16-SW-01-SRV",
+                "ip": "10.42.158.253",
+                "port": "g1/1/4",
+                "NOTE":"can not log in"
+            }
+        ]
+    }, 
+    "CZMTMILL2TECH-SW1": {
+        "node_name": "CZMTMILL2TECH-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.253.245",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.253.241",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMILLCTRLRM": {
+        "node_name": "CZMILLCTRLRM",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMILLCTRLRM-SW2",
+                "ip": "10.42.128.188",
+                "port": "F1/4"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.254.41",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.254.37",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMILLCTRLRM-SW2": {
+        "node_name": "CZMILLCTRLRM-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMILLCTRLRM",
+                "ip": "10.42.128.189",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC19.1-SW1": {
+        "node_name": "CZMCC19.1-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMILLFURNACE2-SW1",
+                "ip": "10.42.129.253",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC19.1-SW3",
+                "ip": "10.42.253.21",
+                "port": "F1/4"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.9",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC19.1-SW3": {
+        "node_name": "CZMCC19.1-SW3",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC16.1-SW3",
+                "ip": "10.42.152.252",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC19.1-SW1",
+                "ip": "10.42.253.22",
+                "port": "F1/8"
+            }
+        ]
+    }, 
+    "CZMILLFURNACE2-SW1": {
+        "node_name": "CZMILLFURNACE2-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMILLFURNACE1-SW1",
+                "ip": "10.42.129.252",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC19.1-SW1",
+                "ip": "10.42.129.251",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMILLFURNACE1-SW1": {
+        "node_name": "CZMILLFURNACE1-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMILLFURNACE2-SW1",
+                "ip": "10.42.129.253",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC18.0-SW1": {
+        "node_name": "CZMCC18.0-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZDETOX-SW1",
+                "ip": "10.42.253.42",
+                "port": "g1/0/7"
+            },
+            {
+                "name": "CZMCC11.0-SW2",
+                "ip": "10.42.251.81",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC11.0-SW1",
+                "ip": "10.42.251.78",
+                "port": "g1/0/3"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.53",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC18.0-SW2",
+                "ip": "10.42.251.74",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC18.1-SW1",
+                "ip": "10.42.251.94",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.33",
+                "port": "g1/0/1"
+            }
+        ]
+    }, 
+    "CZMCC18.0-SW2": {
+        "node_name": "CZMCC18.0-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZDETOX-SW1",
+                "ip": "10.42.253.50",
+                "port": "g1/0/7"
+            },
+            {
+                "name": "CZMCC11.0-SW2",
+                "ip": "10.42.251.81",
+                "port": "g1/0/4"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.49",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.73",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC18.1-SW2",
+                "ip": "10.42.251.98",
+                "port": "g1/0/5"
+            },
+            {
+                "name": "CZMCC19.0-SW1",
+                "ip": "10.42.251.37",
+                "port": "g1/0/1"
+            }
+        ]
+    }, 
+    "CZDETOX-SW1": {
+        "node_name": "CZDETOX-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC18.0-SW2",
+                "ip": "10.42.253.49",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.253.41",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC18.1-SW1": {
+        "node_name": "CZMCC18.1-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC18.1-SW2",
+                "ip": "10.42.130.253",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC18.1-SW3",
+                "ip": "10.42.251.102",
+                "port": "g1/4"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.93",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC18.1-SW2": {
+        "node_name": "CZMCC18.1-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC18.0-SW2",
+                "ip": "10.42.251.97",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC18.1-SW3",
+                "ip": "10.42.251.106",
+                "port": "F1/4"
+            },
+            {
+                "name": "CZMCC18.1-SW1",
+                "ip": "10.42.130.252",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC18.1-SW3": {
+        "node_name": "CZMCC18.1-SW3",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC111-SW3",
+                "ip": "10.42.152.249",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC18.1-SW2",
+                "ip": "10.42.251.105",
+                "port": "F1/8"
+            },
+            {
+                "name": "CZMCC28.1-SW3",
+                "ip": "10.42.152.251",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC18.1-SW1",
+                "ip": "10.42.251.101",
+                "port": "F1/4"
+            }
+        ]
+    }, 
+    "CZMCC111-SW3": {
+        "node_name": "CZMCC111-SW3",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC11.1-SW1",
+                "ip": "10.42.251.121",
+                "port": "F1/4"
+            },
+            {
+                "name": "CZMCC18.1-SW3",
+                "ip": "10.42.152.150",
+                "port": "g1/2"
+            }
+        ]
+    }, 
+    "CZMCC11.1-SW1": {
+        "node_name": "CZMCC11.1-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC111-SW3",
+                "ip": "10.42.251.122",
+                "port": "F1/4"
+            },
+            {
+                "name": "CZMCC11.0-SW2",
+                "ip": "10.42.251.117",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC11.0-SW1",
+                "ip": "10.42.251.113",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZZMCC192-SW3": {
+        "node_name": "CZZMCC192-SW3",
+        "ip": "10.42.255.178",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC19.1-SW3",
+                "ip": "10.42.152.253",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC11CTRLRM-SW1": {
+        "node_name": "CZMCC11CTRLRM-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC11.0-SW2",
+                "ip": "10.42.253.37",
+                "port": "g1/2"
+            },
+            {
+                "name": "CZMCC11.0-SW1",
+                "ip": "10.42.253.29",
+                "port": "g1/1"
+            }
+        ]
+    }, 
+    "CZMCC11.0-SW1": {
+        "node_name": "CZMCC11.0-SW1",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC11.0-SW2",
+                "ip": "10.42.251.110",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC11.1-SW1",
+                "ip": "10.42.251.114",
+                "port": "g1/0/3"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.77",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZMCC11CTRLRM-SW1",
+                "ip": "10.42.253.30",
+                "port": "g1/0/4"
+            }
+        ]
+    },
+    "CZMCC11.0-SW2": {
+        "node_name": "CZMCC11.0-SW2",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC11.1-SW1",
+                "ip": "10.42.251.118",
+                "port": "g1/0/3"
+            },
+            {
+                "name": "CZMCC11.0-SW1",
+                "ip": "10.42.251.109",
+                "port": "g1/0/12"
+            },
+            {
+                "name": "CZMCC19.0-SW2",
+                "ip": "10.42.251.89",
+                "port": "g1/0/2"
+            },
+            {
+                "name": "CZMCC18.0-SW1",
+                "ip": "10.42.251.81",
+                "port": "g1/0/1"
+            },
+            {
+                "name": "CZMCC11CTRLRM-SW1",
+                "ip": "10.42.253.38",
+                "port": "g1/0/4"
+            }
+        ]
+    },
+    "CZMCC28.1-SW3": {
+        "node_name": "CZMCC28.1-SW3",
+        "ip": "",
+        "marked": false,
+        "neighbors": [
+            {
+                "name": "CZMCC280-SW1",
+                "ip": "10.42.253.13",
+                "port": "F1/8",
+                "NOTE":"can not log in"
+            },
+            {
+                "name": "CZMCC16.1-SW3",
+                "ip": "10.42.152.252",
+                "port": "g1/1"
+            },
+            {
+                "name": "CZMCC18.1-SW3",
+                "ip": "10.42.152.250",
+                "port": "g1/2"
+            }
+        ]
+    }
+}
